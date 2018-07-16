@@ -21,8 +21,5 @@ html,body {
   color: #2c3e50;
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content:center;
-  margin-top:100px;
 }
 </style>
