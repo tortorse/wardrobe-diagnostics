@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Quiz from '@/pages/quiz'
+import Desktop from '@/pages/desktop'
 
 Vue.use(Router)
 
@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'quiz',
-      component: Quiz
+      component: Desktop
     }
   ]
 })
