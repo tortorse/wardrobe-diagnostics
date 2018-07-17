@@ -18,7 +18,7 @@ const quiz = {
     },
     {
       id: 1,
-      content: '尝试跳出自己的舒适区，变得更有创意，并重新界定自己的个人风格。',
+      content: '为什么',
       options: [
         {
           key: 0,

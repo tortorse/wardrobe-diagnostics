@@ -50,7 +50,7 @@ export default {
       if (next) {
         this.disabled = true
         setTimeout(() => {
-          this.$router.push({name: 'quiz', query: {q: next}})
+          this.$router.push({name: 'desktop', query: {q: next}})
         }, 300)
       } else {
         this.disabled = true
@@ -58,7 +58,7 @@ export default {
       }
     },
     resetQuiz () {
-      this.$router.push({name: 'quiz'})
+      this.$router.push({name: 'desktop'})
     }
   }
 }
