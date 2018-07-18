@@ -1,7 +1,8 @@
 <template>
   <a-row type="flex" align="top" justify="center" style="padding-top:100px;">
     <a-col :xs="22" :sm="22" :md="12" :lg="12" :xl="12">
-      <a-card :bordered="false" :title="question.content">
+      <a-card :bordered="false">
+      <div slot="title">{{ question.content }}</div>
       <a-radio-group v-model="value" @change="onChange">
         <a-radio :style="radioStyle" :value="option.key" :disabled="disabled" v-for="option in question.options" :key="option.key">{{ option.content }}</a-radio>
       </a-radio-group>
