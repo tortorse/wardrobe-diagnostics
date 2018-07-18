@@ -5,6 +5,7 @@ import Antd from 'vue-antd-ui'
 import 'vue-antd-ui/dist/antd.css'
 import App from './App'
 import router from './router'
+import 'ui-nuclear-mobile/dist/main.css'
 
 Vue.config.productionTip = false
 Vue.use(Antd)
