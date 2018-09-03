@@ -17,14 +17,7 @@
   ],
   "plugins": [
     "transform-vue-jsx",
-    "transform-runtime",
-    [
-      "import",
-      {
-        "libraryName": "ui-nuclear-mobile",
-        "libraryDirectory": "src/components"
-      }
-    ]
+    "transform-runtime"
   ],
   "env": {
     "test": {

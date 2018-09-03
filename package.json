@@ -16,6 +16,7 @@
   "dependencies": {
     "ui-nuclear-mobile": "0.0.20",
     "vue": "^2.5.2",
+    "vue-analytics": "^5.16.0",
     "vue-antd-ui": "^0.6.0",
     "vue-router": "^3.0.1"
   },
