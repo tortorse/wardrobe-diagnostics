@@ -56,7 +56,7 @@ export default {
       if (next) {
         this.disabled = true
         setTimeout(() => {
-          this.$router.push({name: 'mobile', query: {q: next}})
+          this.$router.push({ name: 'mobile', query: { q: next } })
         }, 300)
       } else {
         this.disabled = true
@@ -64,7 +64,7 @@ export default {
       }
     },
     resetQuiz () {
-      this.$router.push({name: 'mobile'})
+      this.$router.push({ name: 'mobile' })
     }
   }
 }
